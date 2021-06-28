@@ -26,7 +26,7 @@ $(document).ready(function() {
       $('.showTemp').text(`The temperature in Fahrenheit is ${response.main.temp} degrees.`);
       $('.showTemp_Min').text(`The minimum temperature in Fahrenheit is ${response.main.temp_min} degrees.`);
       $('.showTemp_Max').text(`The maximum temperature in Fahrenheit is ${response.main.temp_max} degrees.`);
-      $('.showAll').text(`The cloud coverage is ${response.clouds.all}.`);
+      $('.showAll').text(`The cloud coverage is ${response.clouds.all}%.`);
     }
   });
 });
